@@ -144,6 +144,7 @@ return [
         'Magento_CatalogWidget' => 1,
         'Magento_Wishlist' => 1,
         'Magento_WishlistAnalytics' => 1,
-        'Magentochina_Hello' => 1
+        'Magentochina_Hello' => 1,
+        'Mageplaza_HelloWorld' => 1
     ]
 ];
