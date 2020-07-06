@@ -1,5 +1,5 @@
 <?php
-namespace Mageplaza\Hello\Controller\Hello;
+namespace Magentochina\Hello\Controller\Hello;
 
 class World extends \Magento\Framework\App\Action\Action
 {
