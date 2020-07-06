@@ -1,6 +1,6 @@
 <?php
 
-namespace Webstore\HelloWorld\Controller\Index;
+namespace Webstore\Helloworld\Controller\Index;
 
 use Magento\Framework\App\Action\Context;
 
@@ -14,7 +14,6 @@ class Index extends \Magento\Framework\App\Action\Action
     }
 
     public function execute() {
-        echo  111;die;
         $resultPage = $this->_resultPageFactory->create();
         return $resultPage;
     }
