@@ -27,25 +27,25 @@ return [
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'default',
+    'MAGE_MODE' => 'developer',
     'session' => [
         'save' => 'files'
     ],
     'cache_types' => [
-        'config' => 1,
-        'layout' => 1,
-        'block_html' => 1,
-        'collections' => 1,
-        'reflection' => 1,
-        'db_ddl' => 1,
-        'compiled_config' => 1,
-        'eav' => 1,
-        'customer_notification' => 1,
-        'config_integration' => 1,
-        'config_integration_api' => 1,
-        'full_page' => 1,
-        'config_webservice' => 1,
-        'translate' => 1
+        'config' => 0,
+        'layout' => 0,
+        'block_html' => 0,
+        'collections' => 0,
+        'reflection' => 0,
+        'db_ddl' => 0,
+        'compiled_config' => 0,
+        'eav' => 0,
+        'customer_notification' => 0,
+        'config_integration' => 0,
+        'config_integration_api' => 0,
+        'full_page' => 0,
+        'config_webservice' => 0,
+        'translate' => 0
     ],
     'install' => [
         'date' => 'Fri, 03 Jul 2020 02:03:22 +0000'

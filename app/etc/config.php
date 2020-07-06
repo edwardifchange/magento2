@@ -143,6 +143,7 @@ return [
         'Magento_WeeeGraphQl' => 1,
         'Magento_CatalogWidget' => 1,
         'Magento_Wishlist' => 1,
-        'Magento_WishlistAnalytics' => 1
+        'Magento_WishlistAnalytics' => 1,
+        'Webstore_HelloWorld' => 1
     ]
 ];
