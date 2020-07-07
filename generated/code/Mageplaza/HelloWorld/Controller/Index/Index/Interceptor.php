@@ -8,10 +8,10 @@ class Interceptor extends \Mageplaza\HelloWorld\Controller\Index\Index implement
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Framework\App\Action\Context $context, \Magento\Framework\View\Result\PageFactory $pageFactory, \Mageplaza\HelloWorld\Model\PostFactory $postFactory)
+    public function __construct(\Magento\Framework\App\Action\Context $context, \Magento\Framework\View\Result\PageFactory $pageFactory, \Mageplaza\HelloWorld\Model\PostFactory $postFactory, \Mageplaza\HelloWorld\Model\ResourceModel\Post $post)
     {
         $this->___init();
-        parent::__construct($context, $pageFactory, $postFactory);
+        parent::__construct($context, $pageFactory, $postFactory, $post);
     }
 
     /**
