@@ -24,10 +24,10 @@ class Index extends \Magento\Framework\App\Action\Action
 
     public function execute()
     {
-        echo 111;die;
-//        $tmp = $this->_post->getPostNameById(2);
-//        var_dump($tmp);die;
-//        $post = $this->_postFactory->create();
+        $tmp = $this->_ticket->getOne(1);
+        var_dump($tmp);die;
+
+//        $post = $this->_ticketFactory->create();
 //        $collection = $post->getCollection();
 //        foreach($collection as $item){
 //            echo "<pre>";
