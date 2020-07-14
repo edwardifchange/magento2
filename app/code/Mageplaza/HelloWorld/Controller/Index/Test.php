@@ -19,8 +19,5 @@ class Test extends \Magento\Framework\App\Action\Action
         $this->_eventManager->dispatch('mageplaza_helloworld_display_text', ['text' => $textDisplay]);
         echo $textDisplay->getText();
         exit;
-
-//        echo "Hello World";
-//        exit;
     }
 }
