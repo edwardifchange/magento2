@@ -15,7 +15,12 @@ class Test extends \Magento\Framework\App\Action\Action
 
     public function execute()
     {
-        echo "Hello World";
+        $textDisplay = new \Magento\Framework\DataObject(array('text' => 'edward test!'));
+        $this->_eventManager->dispatch('magentochina_helloworld_display_text', ['text' => $textDisplay]);
+        echo $textDisplay->getText();
         exit;
+
+//        echo "Hello World";
+//        exit;
     }
 }
